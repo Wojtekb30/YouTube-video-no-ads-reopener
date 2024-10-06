@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "YT Reopener",
+  "description": "Open YT video in a new page",
+  "version": "0.1",
+  "action": {
+    "default_popup": "main.html"
+  },
+      "permissions": [
+        
+        "tabs"
+    ],
+
+
+"action": {},
+
+  "background": {"service_worker": "background.js"}
+
+}
